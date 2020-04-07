@@ -1,0 +1,105 @@
+body {
+  background-color: #e2e2e2; }
+  body .wrapper {
+    width: 60%;
+    margin: 0px auto; }
+  body header {
+    text-align: center;
+    margin-bottom: 3%; }
+    body header h1 {
+      color: #414141;
+      font-size: 3vw; }
+  body main textarea {
+    width: 100%;
+    height: 12vw;
+    overflow: auto;
+    resize: none;
+    box-sizing: border-box;
+    margin-bottom: 3%; }
+  body main .section-keyboard__keyboard {
+    display: none;
+    box-sizing: border-box;
+    padding: 0.5%;
+    border: 3px solid #2e2828;
+    border-radius: 10px;
+    background-color: #afaeae; }
+  body main .section-keyboard__keyboard_display-active {
+    display: block; }
+  body main button {
+    font-size: 1.5vw;
+    width: 5.4%;
+    height: 3vw;
+    margin: 0.5%;
+    padding: 0.5%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    color: #ece8e8;
+    border-color: #867a7a;
+    background-color: #2e2828; }
+    body main button:hover {
+      color: #2e2828;
+      background-color: #ece8e8; }
+  body main .keyboard__button_active {
+    color: #2e2828;
+    background-color: #ece8e8;
+    border-style: inset; }
+  body main .keyboard__Backspace {
+    width: 15.8%; }
+  body main .keyboard__Tab {
+    width: 7.4%; }
+  body main .keyboard__Delete {
+    width: 7.4%; }
+  body main .keyboard__CapsLock {
+    width: 13.8%; }
+  body main .keyboard__Enter {
+    width: 13.8%; }
+  body main .keyboard__ShiftLeft {
+    width: 13.8%; }
+  body main .keyboard__ShiftRight {
+    width: 13.8%; }
+  body main .keyboard__ControlLeft {
+    width: 7.45%; }
+  body main .keyboard__ControlRight {
+    width: 7.45%; }
+  body main .keyboard__MetaLeft {
+    width: 7%; }
+  body main .keyboard__AltLeft {
+    width: 6.55%; }
+  body main .keyboard__AltRight {
+    width: 6.55%; }
+  body main .keyboard__Space {
+    width: 39.8%; }
+  body main h2 {
+    color: #414141;
+    text-align: center;
+    font-size: 1.7vw; }
+  body footer {
+    font-size: 0.8vw;
+    text-align: right; }
+
+@media screen and (max-width: 575px) {
+  body main .main__keyboard {
+    border: 2px solid #2e2828;
+    border-radius: 5px; }
+  body main button {
+    border-radius: 2.5px; } }
+
+@media screen and (min-width: 1200px) {
+  body .wrapper {
+    width: 720px; }
+  body header h1 {
+    font-size: 36px; }
+  body main textarea {
+    height: 144px; }
+  body main .main__keyboard {
+    border: 4px solid #2e2828;
+    border-radius: 12px; }
+  body main button {
+    font-size: 18px;
+    height: 36px;
+    border-radius: 7px; }
+  body main h2 {
+    font-size: 20.4px; }
+  body footer {
+    font-size: 9.6px; } }
